@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "5001:5000"
+    container_name: dockerizedCalculator_app
